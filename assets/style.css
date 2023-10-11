@@ -1,4 +1,5 @@
-body {
+/* Start */
+/* body {
     background-color: aquamarine;
 
 }
@@ -71,4 +72,75 @@ span {
     color: black;
     padding: 20px 80px;
     font-size: 24px;
+} */
+
+/* End */
+body{
+    /* background-color: green; */
+}
+.card-wrapper{
+background-color: blue;
+height: 100vh;
+}
+
+.card-wrapper .card{
+    position: relative;
+    width: 240px;
+    background-color: white;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    display: inline-block;
+
+}
+.card-wrapper .card .title{
+    margin-top: 10px;
+    font-size: 22px;
+
+    
+}
+.card-wrapper .card .title .subtitle{
+    color: gray;
+}
+.card-wrapper .card .title .bold{
+font-weight: bold;
+}
+.card-wrapper .card .title p{
+    margin-top: 10px;
+}
+
+.card-wrapper .card .date-text {
+    margin-top: 10px;
+}
+.card-wrapper .card .date-text  span{
+color: green;
+font-size: 22px;
+}
+
+.icon-area1{
+    position: absolute;
+    right: -20px;
+    top: 40px;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+}
+.icon-area2{
+    position: absolute;
+    right: -20px;
+    top: 40px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+}
+.icon-area1 i{
+    font-size: 35px;
+    margin-top: 7px;
+    margin-left: 7px;
+    color: white;
+}
+.fa-globe{
+    color: brown !important;
 }
