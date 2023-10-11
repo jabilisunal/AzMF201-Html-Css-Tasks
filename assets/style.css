@@ -1,0 +1,74 @@
+body {
+    background-color: aquamarine;
+
+}
+
+.card-wrapper {
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    margin: 20px auto;
+    border: 2px solid blue;
+    transition: 500ms;
+   
+}
+.card-wrapper:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    cursor: pointer;
+}
+.card-wrapper .card-img {
+    width: 180px;
+    height: 180px;
+    margin: 15px auto;
+
+}
+
+.card-wrapper .card-img img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card-info span {
+    display: block;
+    font-size: 20px;
+    color: black;
+}
+
+.card-info .job-name {
+    color: gray;
+}
+
+.card-info h1,
+span {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.card-sosial-icons {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(165, 42, 97);
+}
+
+.card-sosial-icons .fa-instagram {
+    color: pink;
+}
+
+.card-wrapper button {
+    background-color: black;
+    color: white;
+    padding: 10px 60px;
+    margin: 20px auto;
+    border-radius: 20px;
+    display: block;
+    transition: 1s;
+}
+.card-wrapper button:hover{
+    background-color: violet;
+    color: black;
+    padding: 20px 80px;
+    font-size: 24px;
+}
